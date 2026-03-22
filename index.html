@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarConnect AI — Dealer Inventory for AI Shoppers</title>
+  <meta name="description" content="Connect your dealership inventory directly to AI shoppers using ChatGPT, Claude, and other AI assistants." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="CarConnect AI home">
+      <span class="brand-mark">CC</span>
+      <span class="brand-text">CarConnect AI</span>
+    </a>
+    <a class="header-cta" href="#contact">Talk to us</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">MVP for automotive dealers</p>
+        <h1>Put your inventory in front of consumers using AI agents.</h1>
+        <p class="lede">
+          We connect dealer inventory directly to ChatGPT, Claude, and other AI-powered shopping experiences so shoppers see your real vehicles, your real pricing, and your real dealership.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Get in touch</a>
+          <a class="button button-secondary" href="#benefits">See dealer benefits</a>
+        </div>
+
+        <ul class="hero-points" aria-label="Key points">
+          <li>Direct dealer visibility in AI conversations</li>
+          <li>Fresh inventory, pricing, and links</li>
+          <li>Leads routed back to your store</li>
+        </ul>
+      </div>
+
+      <aside class="hero-card" aria-label="Summary card">
+        <p class="card-label">What CarConnect AI does</p>
+        <ul class="check-list">
+          <li>Connects to your DMS or feed provider</li>
+          <li>Normalizes your inventory data</li>
+          <li>Publishes a dealer-ready AI shopping layer</li>
+          <li>Helps shoppers land on your VDPs and contact points</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="section" id="benefits">
+      <div class="section-heading">
+        <p class="eyebrow">Why dealers care</p>
+        <h2>Benefits for dealers</h2>
+      </div>
+
+      <div class="benefit-grid">
+        <article class="benefit-card">
+          <h3>Show up where shoppers are starting</h3>
+          <p>More consumers are researching cars with AI. CarConnect helps your inventory appear when those conversations begin.</p>
+        </article>
+
+        <article class="benefit-card">
+          <h3>Keep your pricing and availability accurate</h3>
+          <p>Reduce stale listings, incorrect incentives, and lost trust by connecting AI experiences to fresher dealer data.</p>
+        </article>
+
+        <article class="benefit-card">
+          <h3>Send traffic to your store, not only marketplaces</h3>
+          <p>Guide shoppers to your VDPs, financing tools, trade-in flows, and contact forms instead of losing the relationship.</p>
+        </article>
+
+        <article class="benefit-card">
+          <h3>Compete better with large retailers</h3>
+          <p>Give independent dealers and dealer groups a simpler way to match the AI visibility that national brands are already building.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="how-it-works">
+      <div class="section-heading">
+        <p class="eyebrow">Simple process</p>
+        <h2>How it works</h2>
+      </div>
+
+      <div class="steps">
+        <article class="step">
+          <span class="step-number">1</span>
+          <h3>Connect your feed</h3>
+          <p>We work with your DMS or inventory feed provider to bring your inventory, pricing, photos, and links into our platform.</p>
+        </article>
+
+        <article class="step">
+          <span class="step-number">2</span>
+          <h3>Prepare your AI-ready data</h3>
+          <p>We organize your vehicles, dealer profile, store info, and lead destinations into a clean, structured format for AI experiences.</p>
+        </article>
+
+        <article class="step">
+          <span class="step-number">3</span>
+          <h3>Launch your AI channel</h3>
+          <p>We help your inventory appear inside AI shopping experiences and route qualified shoppers back to your dealership.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-wrap" id="contact">
+      <div class="contact-copy">
+        <p class="eyebrow">Dealer intake</p>
+        <h2>Are you a dealer who wants to get your inventory in front of consumers using AI agents?</h2>
+        <p>
+          Fill out the form and I’ll set up time to walk you through the process.
+        </p>
+        <p class="microcopy">
+          This is an MVP. Early dealer partners get hands-on onboarding and direct feedback into the roadmap.
+        </p>
+      </div>
+
+      <form class="contact-form" name="dealer-contact" method="POST" data-netlify="true" action="/thanks.html">
+        <input type="hidden" name="form-name" value="dealer-contact" />
+
+        <div class="field-group">
+          <label for="dealerName">Dealer name</label>
+          <input id="dealerName" name="dealerName" type="text" autocomplete="organization" required />
+        </div>
+
+        <div class="field-group">
+          <label for="rooftops">Rooftops</label>
+          <input id="rooftops" name="rooftops" type="number" min="1" step="1" inputmode="numeric" required />
+        </div>
+
+        <div class="field-group">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </div>
+
+        <div class="field-group">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+        </div>
+
+        <div class="field-group">
+          <label for="location">Location</label>
+          <input id="location" name="location" type="text" autocomplete="address-level2" placeholder="City, State" required />
+        </div>
+
+        <div class="field-group">
+          <label for="provider">DMS / feed provider</label>
+          <input id="provider" name="provider" type="text" placeholder="CDK, Reynolds, Dealer.com, vAuto, HomeNet, etc." required />
+        </div>
+
+        <div class="field-group field-group-full">
+          <label for="notes">Anything else we should know?</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Current website provider, rooftop count, goals, launch timing, etc."></textarea>
+        </div>
+
+        <button class="button button-primary button-full" type="submit">Request a walkthrough</button>
+        <p class="form-note">By submitting this form, you’re asking CarConnect AI to contact you about dealer onboarding.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>CarConnect AI — Dealer inventory for AI shoppers.</p>
+  </footer>
+</body>
+</html>
