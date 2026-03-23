@@ -3,168 +3,370 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CarConnect AI — Dealer Inventory for AI Shoppers</title>
-  <meta name="description" content="Connect your dealership inventory directly to AI shoppers using ChatGPT, Claude, and other AI assistants." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>CarConnect AI — Dealer inventory for AI shoppers</title>
+  <meta name="description" content="CarConnect AI helps automotive dealers connect live inventory to AI-assisted shopping, starting with ChatGPT." />
+  <meta name="theme-color" content="#080d14" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="CarConnect AI home">
-      <span class="brand-mark">CC</span>
-      <span class="brand-text">CarConnect AI</span>
-    </a>
-    <a class="header-cta" href="#contact">Talk to us</a>
-  </header>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="CarConnect AI home">
+        <img class="brand-icon" src="assets/icon-192.png" alt="" width="44" height="44" />
+        <span class="brand-lockup">
+          <span class="brand-name">CarConnect AI</span>
+          <span class="brand-tag">Dealer inventory for AI shoppers</span>
+        </span>
+      </a>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">MVP for automotive dealers</p>
-        <h1>Put your inventory in front of consumers using AI agents.</h1>
-        <p class="lede">
-          We connect dealer inventory directly to ChatGPT, Claude, and other AI-powered shopping experiences so shoppers see your real vehicles, your real pricing, and your real dealership.
-        </p>
+      <nav class="header-nav" aria-label="Primary">
+        <a class="nav-link" href="pricing.html">Pricing</a>
+        <a class="button button-secondary button-small" href="#contact">Apply for beta</a>
+      </nav>
+    </header>
 
-        <div class="hero-actions">
-          <a class="button button-primary" href="#contact">Get in touch</a>
-          <a class="button button-secondary" href="#benefits">See dealer benefits</a>
+    <main>
+      <section class="hero section-space" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Founding dealer beta · limited to first 10 rooftops</p>
+          <h1>Dealer inventory for AI shoppers.</h1>
+          <p class="lede">
+            We connect your live inventory to AI-assisted car shopping, starting with ChatGPT, so shoppers see your vehicles, your pricing, and your store.
+          </p>
+          <p class="proof-line">
+            Another project from <strong>Qureshi Media LLC</strong> by Adam Qureshi, founder of
+            <a href="https://onlyusedtesla.com/" target="_blank" rel="noreferrer">Only Used Tesla</a>.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pricing">See founding pricing</a>
+            <a class="button button-secondary" href="#contact">Apply for founding access</a>
+          </div>
+
+          <ul class="hero-points" aria-label="Key product points">
+            <li>Connect to your DMS or feed provider</li>
+            <li>Keep pricing, photos, and VDP links fresh</li>
+            <li>Route high-intent shoppers back to your store</li>
+          </ul>
         </div>
 
-        <ul class="hero-points" aria-label="Key points">
-          <li>Direct dealer visibility in AI conversations</li>
-          <li>Fresh inventory, pricing, and links</li>
-          <li>Leads routed back to your store</li>
-        </ul>
+        <aside class="hero-panel card" aria-label="Founding beta snapshot">
+          <p class="card-kicker">Founding Dealer Beta</p>
+          <h2>Start with a paid beta, not a free pilot.</h2>
+          <div class="price-stack" aria-label="Starting beta pricing">
+            <div class="price-chip">
+              <span class="price-label">Setup</span>
+              <strong>$2,500</strong>
+            </div>
+            <div class="price-chip">
+              <span class="price-label">Monthly</span>
+              <strong>$499</strong>
+              <span class="price-note">per rooftop</span>
+            </div>
+          </div>
+          <ul class="check-list">
+            <li>Feed onboarding and inventory mapping</li>
+            <li>AI-ready data normalization</li>
+            <li>Founding rate lock for 12 months</li>
+            <li>Dealer groups with 5+ rooftops get custom rollout pricing</li>
+          </ul>
+          <a class="button button-primary button-full" href="#contact">Request founding access</a>
+          <p class="microcopy">
+            Starting with ChatGPT. Additional AI shopping surfaces come next as the beta expands.
+          </p>
+        </aside>
+      </section>
+
+      <section class="signal-band section-space-sm" aria-label="What dealers get">
+        <div class="signal-item">
+          <span class="signal-label">Live inventory</span>
+          <p>Your real vehicles, not scraped listings.</p>
+        </div>
+        <div class="signal-item">
+          <span class="signal-label">Dealer-owned traffic</span>
+          <p>Send shoppers to your VDPs, forms, and phone numbers.</p>
+        </div>
+        <div class="signal-item">
+          <span class="signal-label">Paid beta</span>
+          <p>Use setup cash to fund the product instead of giving away free pilots.</p>
+        </div>
+      </section>
+
+      <section class="section-space" id="what">
+        <div class="section-heading">
+          <p class="eyebrow">What CarConnect AI does</p>
+          <h2>Not another marketplace. A direct inventory connection layer for AI shopping.</h2>
+          <p class="section-lede">
+            Dealers already pay for listings. CarConnect AI is different: it helps your store show up inside AI-assisted shopping with fresher data and direct paths back to your dealership.
+          </p>
+        </div>
+
+        <div class="card-grid three-up">
+          <article class="feature-card card">
+            <h3>Connect the feed</h3>
+            <p>
+              We work with your DMS or inventory provider to pull inventory, pricing, photos, and VDP links into a structured format.
+            </p>
+          </article>
+
+          <article class="feature-card card">
+            <h3>Normalize the data</h3>
+            <p>
+              We clean up store info, vehicle data, and contact points so AI experiences can read your inventory clearly and present it correctly.
+            </p>
+          </article>
+
+          <article class="feature-card card">
+            <h3>Launch the channel</h3>
+            <p>
+              We publish an AI-ready shopping layer that helps shoppers discover vehicles and land on your site, your lead forms, and your phone numbers.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-space section-alt" id="benefits">
+        <div class="section-heading">
+          <p class="eyebrow">Why dealers care</p>
+          <h2>Use AI visibility to compete with larger retailers and marketplaces.</h2>
+        </div>
+
+        <div class="card-grid two-up">
+          <article class="benefit-card card">
+            <h3>Show up earlier in the journey</h3>
+            <p>
+              Meet shoppers when they start with AI instead of waiting until they arrive on a listing site or search result.
+            </p>
+          </article>
+
+          <article class="benefit-card card">
+            <h3>Keep the relationship on your side</h3>
+            <p>
+              Push traffic to your VDPs, trade-in pages, finance tools, and direct contact points instead of losing every interaction to a marketplace.
+            </p>
+          </article>
+
+          <article class="benefit-card card">
+            <h3>Move faster than bigger competitors</h3>
+            <p>
+              Large retailers are already experimenting with AI shopping. This gives dealer groups and independent stores a way to compete sooner.
+            </p>
+          </article>
+
+          <article class="benefit-card card">
+            <h3>Turn onboarding into revenue</h3>
+            <p>
+              Charge setup, fund the build, and use the founding beta to prove dealers will pay for direct AI distribution.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-space" id="pricing">
+        <div class="section-heading">
+          <p class="eyebrow">Founding pricing</p>
+          <h2>Simple pricing you can sell now.</h2>
+          <p class="section-lede">
+            Keep the offer clear: charge setup for the feed work, then charge monthly for the sync, monitoring, and AI shopping layer.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card card pricing-card-featured">
+            <p class="plan-tag">Single rooftop beta</p>
+            <div class="plan-line">
+              <span class="plan-price">$2,500</span>
+              <span class="plan-caption">setup</span>
+            </div>
+            <div class="plan-line plan-line-secondary">
+              <span class="plan-price plan-price-secondary">$499</span>
+              <span class="plan-caption">per month</span>
+            </div>
+            <ul class="check-list compact">
+              <li>Inventory feed onboarding</li>
+              <li>Pricing, photos, and VDP mapping</li>
+              <li>Dealer profile setup</li>
+              <li>Launch support</li>
+              <li>12-month founding rate lock</li>
+            </ul>
+            <a class="button button-primary button-full" href="#contact">Apply for founding access</a>
+          </article>
+
+          <article class="pricing-card card">
+            <p class="plan-tag">Dealer group beta · 5+ rooftops</p>
+            <div class="plan-line">
+              <span class="plan-price">From $5,000</span>
+              <span class="plan-caption">group setup</span>
+            </div>
+            <div class="plan-line plan-line-secondary">
+              <span class="plan-price plan-price-secondary">From $399</span>
+              <span class="plan-caption">per month / rooftop</span>
+            </div>
+            <ul class="check-list compact">
+              <li>Multi-rooftop rollout planning</li>
+              <li>Store-by-store feed mapping</li>
+              <li>Prioritized launch order</li>
+              <li>Founding group pricing</li>
+              <li>Direct founder support</li>
+            </ul>
+            <a class="button button-secondary button-full" href="pricing.html">Open pricing page</a>
+          </article>
+        </div>
+
+        <div class="inline-note card">
+          <p>
+            Have a dealer group with 7 rooftops? Use the beta to scope the rollout, start with the first live stores, then expand across the group.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-space section-alt" id="process">
+        <div class="section-heading">
+          <p class="eyebrow">How onboarding works</p>
+          <h2>From feed access to live beta in a few clear steps.</h2>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step card">
+            <span class="step-number">1</span>
+            <h3>Kickoff and rooftop review</h3>
+            <p>Review your rooftops, goals, sites, and which provider controls the inventory feed.</p>
+          </article>
+
+          <article class="step card">
+            <span class="step-number">2</span>
+            <h3>Feed access and mapping</h3>
+            <p>Pull vehicle data, photos, pricing, and URLs into one normalized format that AI tools can use.</p>
+          </article>
+
+          <article class="step card">
+            <span class="step-number">3</span>
+            <h3>QA and store setup</h3>
+            <p>Verify VINs, pricing, VDP links, dealer contact points, and store metadata before launch.</p>
+          </article>
+
+          <article class="step card">
+            <span class="step-number">4</span>
+            <h3>Launch and measure</h3>
+            <p>Go live, route shoppers back to the store, and use the beta to learn what dealers will actually pay for.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-space founder-strip-wrap">
+        <div class="founder-strip card">
+          <div>
+            <p class="eyebrow eyebrow-muted">Built by Qureshi Media LLC</p>
+            <h2>Use the trust you already have.</h2>
+          </div>
+          <p>
+            Position CarConnect AI as another project from Adam Qureshi and the team behind
+            <a href="https://onlyusedtesla.com/" target="_blank" rel="noreferrer">Only Used Tesla</a> so dealers know there is real auto inventory experience behind the beta.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-space contact-wrap" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Apply for founding beta</p>
+          <h2>Are you a dealer who wants your inventory in front of consumers using AI agents?</h2>
+          <p class="section-lede">
+            Fill out the form and we will follow up from
+            <a href="mailto:contact@onlyusedtesla.com">contact@onlyusedtesla.com</a>.
+          </p>
+          <ul class="contact-points">
+            <li>Founding dealer pricing</li>
+            <li>Direct founder support</li>
+            <li>Custom rollout for dealer groups</li>
+          </ul>
+        </div>
+
+        <form class="contact-form card" action="https://formsubmit.co/contact@onlyusedtesla.com" method="POST">
+          <input type="hidden" name="_subject" value="New CarConnect AI founding dealer beta lead" />
+          <input type="hidden" name="_next" value="https://adamqureshi.com/car-connect-ai/thanks.html" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_autoresponse" value="Thanks for reaching out about CarConnect AI. We received your request and will follow up shortly." />
+          <input class="honeypot" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+          <div class="field-grid two-up-grid">
+            <div class="field-group">
+              <label for="dealer-name">Dealer name</label>
+              <input id="dealer-name" name="dealer_name" type="text" autocomplete="organization" required />
+            </div>
+
+            <div class="field-group">
+              <label for="rooftops">Rooftops</label>
+              <input id="rooftops" name="rooftops" type="number" min="1" step="1" inputmode="numeric" required />
+            </div>
+          </div>
+
+          <div class="field-grid two-up-grid">
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="field-group">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+            </div>
+          </div>
+
+          <div class="field-grid two-up-grid">
+            <div class="field-group">
+              <label for="location">Location</label>
+              <input id="location" name="location" type="text" autocomplete="address-level2" placeholder="City, State" required />
+            </div>
+
+            <div class="field-group">
+              <label for="website">Website</label>
+              <input id="website" name="website" type="url" placeholder="https://yourdealership.com" />
+            </div>
+          </div>
+
+          <div class="field-grid two-up-grid">
+            <div class="field-group">
+              <label for="provider">DMS / feed provider</label>
+              <input id="provider" name="provider" type="text" placeholder="CDK, Reynolds, HomeNet, vAuto, Dealer.com" required />
+            </div>
+
+            <div class="field-group">
+              <label for="timeline">Launch timeline</label>
+              <input id="timeline" name="timeline" type="text" placeholder="ASAP, this month, next quarter" />
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="notes">Anything else we should know?</label>
+            <textarea id="notes" name="notes" rows="5" placeholder="Tell us about your rooftops, current provider, goals, or any group rollout details."></textarea>
+          </div>
+
+          <button class="button button-primary button-full" type="submit">Apply for founding access</button>
+          <p class="form-note">
+            Another project from Qureshi Media LLC by Adam Qureshi, founder of
+            <a href="https://onlyusedtesla.com/" target="_blank" rel="noreferrer">Only Used Tesla</a>.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p class="footer-brand">CarConnect AI</p>
+        <p class="footer-copy">Dealer inventory for AI shoppers.</p>
       </div>
-
-      <aside class="hero-card" aria-label="Summary card">
-        <p class="card-label">What CarConnect AI does</p>
-        <ul class="check-list">
-          <li>Connects to your DMS or feed provider</li>
-          <li>Normalizes your inventory data</li>
-          <li>Publishes a dealer-ready AI shopping layer</li>
-          <li>Helps shoppers land on your VDPs and contact points</li>
-        </ul>
-      </aside>
-    </section>
-
-    <section class="section" id="benefits">
-      <div class="section-heading">
-        <p class="eyebrow">Why dealers care</p>
-        <h2>Benefits for dealers</h2>
+      <div class="footer-links">
+        <a href="pricing.html">Pricing</a>
+        <a href="mailto:contact@onlyusedtesla.com">contact@onlyusedtesla.com</a>
+        <a href="https://onlyusedtesla.com/" target="_blank" rel="noreferrer">Only Used Tesla</a>
       </div>
-
-      <div class="benefit-grid">
-        <article class="benefit-card">
-          <h3>Show up where shoppers are starting</h3>
-          <p>More consumers are researching cars with AI. CarConnect helps your inventory appear when those conversations begin.</p>
-        </article>
-
-        <article class="benefit-card">
-          <h3>Keep your pricing and availability accurate</h3>
-          <p>Reduce stale listings, incorrect incentives, and lost trust by connecting AI experiences to fresher dealer data.</p>
-        </article>
-
-        <article class="benefit-card">
-          <h3>Send traffic to your store, not only marketplaces</h3>
-          <p>Guide shoppers to your VDPs, financing tools, trade-in flows, and contact forms instead of losing the relationship.</p>
-        </article>
-
-        <article class="benefit-card">
-          <h3>Compete better with large retailers</h3>
-          <p>Give independent dealers and dealer groups a simpler way to match the AI visibility that national brands are already building.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="how-it-works">
-      <div class="section-heading">
-        <p class="eyebrow">Simple process</p>
-        <h2>How it works</h2>
-      </div>
-
-      <div class="steps">
-        <article class="step">
-          <span class="step-number">1</span>
-          <h3>Connect your feed</h3>
-          <p>We work with your DMS or inventory feed provider to bring your inventory, pricing, photos, and links into our platform.</p>
-        </article>
-
-        <article class="step">
-          <span class="step-number">2</span>
-          <h3>Prepare your AI-ready data</h3>
-          <p>We organize your vehicles, dealer profile, store info, and lead destinations into a clean, structured format for AI experiences.</p>
-        </article>
-
-        <article class="step">
-          <span class="step-number">3</span>
-          <h3>Launch your AI channel</h3>
-          <p>We help your inventory appear inside AI shopping experiences and route qualified shoppers back to your dealership.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section contact-wrap" id="contact">
-      <div class="contact-copy">
-        <p class="eyebrow">Dealer intake</p>
-        <h2>Are you a dealer who wants to get your inventory in front of consumers using AI agents?</h2>
-        <p>
-          Fill out the form and I’ll set up time to walk you through the process.
-        </p>
-        <p class="microcopy">
-          This is an MVP. Early dealer partners get hands-on onboarding and direct feedback into the roadmap.
-        </p>
-      </div>
-
-      <form class="contact-form" name="dealer-contact" method="POST" data-netlify="true" action="/thanks.html">
-        <input type="hidden" name="form-name" value="dealer-contact" />
-
-        <div class="field-group">
-          <label for="dealerName">Dealer name</label>
-          <input id="dealerName" name="dealerName" type="text" autocomplete="organization" required />
-        </div>
-
-        <div class="field-group">
-          <label for="rooftops">Rooftops</label>
-          <input id="rooftops" name="rooftops" type="number" min="1" step="1" inputmode="numeric" required />
-        </div>
-
-        <div class="field-group">
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" autocomplete="email" required />
-        </div>
-
-        <div class="field-group">
-          <label for="phone">Phone</label>
-          <input id="phone" name="phone" type="tel" autocomplete="tel" required />
-        </div>
-
-        <div class="field-group">
-          <label for="location">Location</label>
-          <input id="location" name="location" type="text" autocomplete="address-level2" placeholder="City, State" required />
-        </div>
-
-        <div class="field-group">
-          <label for="provider">DMS / feed provider</label>
-          <input id="provider" name="provider" type="text" placeholder="CDK, Reynolds, Dealer.com, vAuto, HomeNet, etc." required />
-        </div>
-
-        <div class="field-group field-group-full">
-          <label for="notes">Anything else we should know?</label>
-          <textarea id="notes" name="notes" rows="4" placeholder="Current website provider, rooftop count, goals, launch timing, etc."></textarea>
-        </div>
-
-        <button class="button button-primary button-full" type="submit">Request a walkthrough</button>
-        <p class="form-note">By submitting this form, you’re asking CarConnect AI to contact you about dealer onboarding.</p>
-      </form>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>CarConnect AI — Dealer inventory for AI shoppers.</p>
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>
