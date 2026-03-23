@@ -51,3 +51,8 @@ Because this is a simple static site, you can drop these files into the root of 
 
 - If you want stronger spam protection later, switch to Formspree, Netlify Forms, or a custom endpoint.
 - If you want a different pricing stance, adjust the two pricing cards in `index.html` and `pricing.html`.
+
+
+## Layout fix
+
+This version fixes the desktop overlap in the founder / trust section by switching that band to a safer two-column layout only on larger screens.
